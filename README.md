@@ -1,4 +1,3 @@
-launch an instance 
 
 root@ip-172-31-24-103:~/ArgoCd# history
     1  sudo apt update -y
@@ -85,4 +84,4 @@ root@ip-172-31-24-103:~/ArgoCd# history
    82  kubectl delete certificate eshwary-com-tls -n prod
    83  kubectl get certificate -n prod
    84  history
-root@ip-172-31-24-103:~/ArgoCd#
+        
