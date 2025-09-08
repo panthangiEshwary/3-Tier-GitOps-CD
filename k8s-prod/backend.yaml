@@ -1,4 +1,4 @@
----  
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: panthangi/backend:28f057f04d9cd1776853b5ef47a5a80d79d3c58b
+          image: panthangi/backend:26c0e60ebb63bd2c20d1ed1ed63dd2b9482c6816
           ports:
             - containerPort: 5000
           env:
